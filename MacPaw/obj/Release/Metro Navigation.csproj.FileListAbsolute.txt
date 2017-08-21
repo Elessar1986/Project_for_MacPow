@@ -1,0 +1,21 @@
+E:\Programming\Projects\WPF\MacPaw\MacPaw\bin\Release\MacPaw.exe.config
+E:\Programming\Projects\WPF\MacPaw\MacPaw\bin\Release\MacPaw.exe
+E:\Programming\Projects\WPF\MacPaw\MacPaw\bin\Release\MacPaw.pdb
+E:\Programming\Projects\WPF\MacPaw\MacPaw\bin\Release\MahApps.Metro.dll
+E:\Programming\Projects\WPF\MacPaw\MacPaw\bin\Release\Metro Model.dll
+E:\Programming\Projects\WPF\MacPaw\MacPaw\bin\Release\System.Windows.Interactivity.dll
+E:\Programming\Projects\WPF\MacPaw\MacPaw\bin\Release\Metro Model.pdb
+E:\Programming\Projects\WPF\MacPaw\MacPaw\bin\Release\MahApps.Metro.pdb
+E:\Programming\Projects\WPF\MacPaw\MacPaw\bin\Release\MahApps.Metro.xml
+E:\Programming\Projects\WPF\MacPaw\MacPaw\obj\Release\Metro Navigation.csprojResolveAssemblyReference.cache
+E:\Programming\Projects\WPF\MacPaw\MacPaw\obj\Release\MainWindow.g.cs
+E:\Programming\Projects\WPF\MacPaw\MacPaw\obj\Release\App.g.cs
+E:\Programming\Projects\WPF\MacPaw\MacPaw\obj\Release\MacPaw_MarkupCompile.cache
+E:\Programming\Projects\WPF\MacPaw\MacPaw\obj\Release\MacPaw_MarkupCompile.lref
+E:\Programming\Projects\WPF\MacPaw\MacPaw\obj\Release\App.baml
+E:\Programming\Projects\WPF\MacPaw\MacPaw\obj\Release\MainWindow.baml
+E:\Programming\Projects\WPF\MacPaw\MacPaw\obj\Release\MacPaw.g.resources
+E:\Programming\Projects\WPF\MacPaw\MacPaw\obj\Release\MacPaw.Properties.Resources.resources
+E:\Programming\Projects\WPF\MacPaw\MacPaw\obj\Release\Metro Navigation.csproj.GenerateResource.Cache
+E:\Programming\Projects\WPF\MacPaw\MacPaw\obj\Release\MacPaw.exe
+E:\Programming\Projects\WPF\MacPaw\MacPaw\obj\Release\MacPaw.pdb

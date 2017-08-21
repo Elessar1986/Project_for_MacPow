@@ -1,0 +1,5 @@
+E:\Programming\Projects\WPF\MacPaw\Metro Model\bin\Debug\Metro Model.dll
+E:\Programming\Projects\WPF\MacPaw\Metro Model\bin\Debug\Metro Model.pdb
+E:\Programming\Projects\WPF\MacPaw\Metro Model\obj\Debug\Metro Model.dll
+E:\Programming\Projects\WPF\MacPaw\Metro Model\obj\Debug\Metro Model.pdb
+E:\Programming\Projects\WPF\MacPaw\Metro Model\obj\Debug\Metro Model.csprojResolveAssemblyReference.cache

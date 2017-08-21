@@ -1,0 +1,4 @@
+E:\Programming\Projects\WPF\MacPaw\Metro Model\bin\Release\Metro Model.dll
+E:\Programming\Projects\WPF\MacPaw\Metro Model\bin\Release\Metro Model.pdb
+E:\Programming\Projects\WPF\MacPaw\Metro Model\obj\Release\Metro Model.dll
+E:\Programming\Projects\WPF\MacPaw\Metro Model\obj\Release\Metro Model.pdb

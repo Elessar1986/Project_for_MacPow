@@ -1,0 +1,37 @@
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\Metro Editor.exe.config
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\Metro Editor.exe
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\Metro Editor.pdb
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\MahApps.Metro.dll
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\Metro Model.dll
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\System.Windows.Interactivity.dll
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\Xceed.Wpf.AvalonDock.dll
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\Xceed.Wpf.DataGrid.dll
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\Xceed.Wpf.Toolkit.dll
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\Metro Model.pdb
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\MahApps.Metro.pdb
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\MahApps.Metro.xml
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\obj\Release\Metro Editor.csprojResolveAssemblyReference.cache
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\obj\Release\MainWindow.g.cs
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\obj\Release\App.g.cs
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\obj\Release\Metro Editor_MarkupCompile.cache
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\obj\Release\Metro Editor_MarkupCompile.lref
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\obj\Release\App.baml
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\obj\Release\MainWindow.baml
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\obj\Release\Metro Editor.g.resources
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\obj\Release\Metro_Editor.Properties.Resources.resources
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\obj\Release\Metro Editor.csproj.GenerateResource.Cache
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\obj\Release\Metro Editor.exe
+E:\Programming\Projects\WPF\MacPaw\Metro Editor\obj\Release\Metro Editor.pdb

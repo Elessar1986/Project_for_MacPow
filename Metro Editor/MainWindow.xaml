@@ -1,0 +1,105 @@
+﻿<Controls:MetroWindow x:Class="Metro_Navigation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:wpfx="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:local="clr-namespace:Metro_Navigation"
+        mc:Ignorable="d"
+        Title="Metro Navigation" Width="800" Height="600" MinHeight="8"
+        BorderBrush="#CC119EDA"
+        BorderThickness="1"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanMinimize">
+    <Grid RenderTransformOrigin="0.367,0.489">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="41*"></ColumnDefinition>
+            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="148*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0" Background="#CC119EDA" Margin="3,2,0,2" Grid.ColumnSpan="2">
+            <Label HorizontalContentAlignment="Center" FontFamily="Helvetica CE" FontSize="18" Foreground="White" Content="Редактор"/>
+            <WrapPanel Margin="2">
+                <Label  Content="кол-во линий:" FontFamily="Helvetica CE" FontSize="14" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                <Controls:NumericUpDown x:Name="SubwayLinesQuantity" Minimum="1" Maximum="5" ValueChanged="SubwayLinesQuantity_ValueChanged" ValueDecremented="SubwayLinesQuantity_ValueDecremented" ValueIncremented="SubwayLinesQuantity_ValueIncremented" />
+            </WrapPanel>
+            <WrapPanel Margin="2">
+                <Label  Content="номер линии:" FontFamily="Helvetica CE" FontSize="14" Foreground="White" />
+                <ComboBox x:Name="SubwayLineNum" SelectionChanged="SubwayLineNum_SelectionChanged"></ComboBox>
+            </WrapPanel>
+            <WrapPanel Margin="2">
+                <Label  Content="цвет линии:" FontFamily="Helvetica CE" FontSize="14" Foreground="White" />
+                <wpfx:ColorPicker Width="90" Name="ColorPicker1" DisplayColorAndName="True" SelectedColorChanged="ColorPicker1_SelectedColorChanged"></wpfx:ColorPicker>
+
+            </WrapPanel>
+            <TabControl SelectionChanged="TabControl_SelectionChanged">
+                <TabItem Header="Добавить" Width="90" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" VerticalAlignment="Top" Controls:ControlsHelper.HeaderFontSize="16">
+                    <StackPanel>
+                        <WrapPanel Margin="2">
+                            <Label Content="Название:"></Label>
+                            <TextBox Width="100" x:Name="StationName" Text="имя станции"></TextBox>
+                        </WrapPanel>
+                        <WrapPanel Margin="2">
+                            <Label Content="ID"></Label>
+                            <Controls:NumericUpDown Name="ID" Minimum="100" Maximum="599" Value="100"></Controls:NumericUpDown>
+                        </WrapPanel>
+                        <WrapPanel Margin="2">
+                            <Label Content="X:"></Label>
+                            <Controls:NumericUpDown x:Name="X" Minimum="0" Maximum="592" Value="0"></Controls:NumericUpDown>
+                        </WrapPanel>
+                        <WrapPanel Margin="2">
+                            <Label Content="Y:"></Label>
+                            <Controls:NumericUpDown x:Name="Y" Minimum="0" Maximum="570" Value="0"></Controls:NumericUpDown>
+                        </WrapPanel>
+                        <WrapPanel Margin="2">
+                            <Label Content="Пересадка:"></Label>
+                            <ComboBox Width="100" x:Name="TransferAdd"></ComboBox>
+                        </WrapPanel>
+                        <Button  Content="Добавить" HorizontalAlignment="Center" Margin="5 10 5 0" Click="Button_Click"></Button>
+                    </StackPanel>
+                </TabItem>
+                <TabItem Header="Изменить" Width="90" MinWidth="11" Controls:ControlsHelper.HeaderFontSize="16">
+
+                    <StackPanel Margin="2">
+                        <WrapPanel Margin="2">
+                            <Label Content="Название:"></Label>
+                            <ComboBox Width="100" x:Name="EditStationName" SelectionChanged="EditStationName_SelectionChanged"></ComboBox>
+                        </WrapPanel>
+                        <WrapPanel Margin="2">
+                            <Label Content="ID"></Label>
+                            <Controls:NumericUpDown Name="editID"  Minimum="100" Maximum="599" ></Controls:NumericUpDown>
+                        </WrapPanel>
+
+                        <WrapPanel Margin="2">
+                            <Label Content="X:"></Label>
+                            <Controls:NumericUpDown x:Name="editX" Minimum="0" Maximum="592"></Controls:NumericUpDown>
+                        </WrapPanel>
+                        <WrapPanel Margin="2">
+                            <Label Content="Y:"></Label>
+                            <Controls:NumericUpDown x:Name="editY" Minimum="0" Maximum="570"></Controls:NumericUpDown>
+                        </WrapPanel>
+                        <WrapPanel Margin="2">
+                            <Label Content="Пересадка:"></Label>
+                            <ComboBox Width="100" x:Name="TransferEdit" SelectionChanged="TransferEdit_SelectionChanged"></ComboBox>
+                        </WrapPanel>
+
+                        <Button Content="Изменить" HorizontalAlignment="Center" Click="Button_Click_3" Margin="5 10 5 0"></Button>
+                        <Button Content="Удалить" HorizontalAlignment="Center" Click="Button_Click_4" Margin="5 10 5 0"></Button>
+
+                    </StackPanel>
+
+
+                </TabItem>
+            </TabControl>
+            <Button Content="Сохранить" Margin="20" Width="100" Click="Button_Click_1"/>
+            <Button Content="Открыть" Margin="20 0 20 0" Width="100" Click="Button_Click_2"/>
+
+
+        </StackPanel>
+        <Canvas Grid.Column="2" x:Name="myCanvas">
+
+
+        </Canvas>
+    </Grid>
+</Controls:MetroWindow>
